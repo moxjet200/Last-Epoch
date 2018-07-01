@@ -1,0 +1,1304 @@
+fileFormatVersion: 2
+guid: 8dcfbe4488322d8458849481d75fa4bb
+timeCreated: 1528941585
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Acolyte:Acolye_chest
+    100002: Acolyte:Acolye_geo
+    100004: Acolyte:Acolye_gloves
+    100006: Acolyte:Acolye_hood
+    100008: Acolyte:Acolye_rig
+    100010: Acolyte:Acolyte_body
+    100012: Acolyte:Acolyte_boots
+    100014: Acolyte:Acolyte_NecromancerArmor
+    100016: Acolyte:anim_chest01
+    100018: Acolyte:anim_COG01
+    100020: Acolyte:anim_global01
+    100022: Acolyte:anim_head01
+    100024: Acolyte:anim_hip01
+    100026: Acolyte:anim_l_clench01
+    100028: Acolyte:anim_l_elbow01
+    100030: Acolyte:anim_l_fan01
+    100032: Acolyte:anim_l_foot01
+    100034: Acolyte:anim_l_hand01
+    100036: Acolyte:anim_l_knee01
+    100038: Acolyte:anim_l_shoulder01
+    100040: Acolyte:anim_l_toes01
+    100042: Acolyte:anim_neck01
+    100044: Acolyte:anim_r_clench01
+    100046: Acolyte:anim_r_elbow01
+    100048: Acolyte:anim_r_fan01
+    100050: Acolyte:anim_r_foot01
+    100052: Acolyte:anim_r_hand01
+    100054: Acolyte:anim_r_knee01
+    100056: Acolyte:anim_r_shoulder01
+    100058: Acolyte:anim_r_toes01
+    100060: Acolyte:anim_stomach01
+    100062: Acolyte:be_l_footroll01
+    100064: Acolyte:be_r_footroll01
+    100066: Acolyte:bind_chest01
+    100068: Acolyte:bind_head01
+    100070: Acolyte:bind_l_ankle01
+    100072: Acolyte:bind_l_clavicle01
+    100074: Acolyte:bind_l_elbow01
+    100076: Acolyte:bind_l_hip01
+    100078: Acolyte:bind_l_index_a01
+    100080: Acolyte:bind_l_index_b01
+    100082: Acolyte:bind_l_index_c01
+    100084: Acolyte:bind_l_knee01
+    100086: Acolyte:bind_l_middle_a01
+    100088: Acolyte:bind_l_middle_b01
+    100090: Acolyte:bind_l_middle_c01
+    100092: Acolyte:bind_l_pinky_a01
+    100094: Acolyte:bind_l_pinky_b01
+    100096: Acolyte:bind_l_pinky_c01
+    100098: Acolyte:bind_l_ring_a01
+    100100: Acolyte:bind_l_ring_b01
+    100102: Acolyte:bind_l_ring_c01
+    100104: Acolyte:bind_l_shoulder01
+    100106: Acolyte:bind_l_thumb_a01
+    100108: Acolyte:bind_l_thumb_b01
+    100110: Acolyte:bind_l_thumb_c01
+    100112: Acolyte:bind_l_toe01
+    100114: Acolyte:bind_l_wrist01
+    100116: Acolyte:bind_neck01
+    100118: Acolyte:bind_r_ankle01
+    100120: Acolyte:bind_r_clavicle01
+    100122: Acolyte:bind_r_elbow01
+    100124: Acolyte:bind_r_hip01
+    100126: Acolyte:bind_r_index_a01
+    100128: Acolyte:bind_r_index_b01
+    100130: Acolyte:bind_r_index_c01
+    100132: Acolyte:bind_r_knee01
+    100134: Acolyte:bind_r_middle_a01
+    100136: Acolyte:bind_r_middle_b01
+    100138: Acolyte:bind_r_middle_c01
+    100140: Acolyte:bind_r_pinky_a01
+    100142: Acolyte:bind_r_pinky_b01
+    100144: Acolyte:bind_r_pinky_c01
+    100146: Acolyte:bind_r_ring_a01
+    100148: Acolyte:bind_r_ring_b01
+    100150: Acolyte:bind_r_ring_c01
+    100152: Acolyte:bind_r_shoulder01
+    100154: Acolyte:bind_r_thumb_a01
+    100156: Acolyte:bind_r_thumb_b01
+    100158: Acolyte:bind_r_thumb_c01
+    100160: Acolyte:bind_r_toe01
+    100162: Acolyte:bind_r_wrist01
+    100164: Acolyte:bind_root01
+    100166: Acolyte:bind_spine01
+    100168: Acolyte:cluster1Handle
+    100170: Acolyte:cluster3Handle
+    100172: Acolyte:cluster4Handle
+    100174: Acolyte:crv_spine01
+    100176: Acolyte:ctrlCrv_l_fingers01
+    100178: Acolyte:ctrlCrv_r_fingers01
+    100180: Acolyte:CtrlGrp_l_fingers01
+    100182: Acolyte:CtrlGrp_r_fingers01
+    100184: Acolyte:grp_controllers
+    100186: Acolyte:grp_IK_l_leg01
+    100188: Acolyte:grp_IK_r_leg01
+    100190: Acolyte:grp_IKs
+    100192: Acolyte:grp_Locators
+    100194: Acolyte:IK_l_leg01
+    100196: Acolyte:IK_r_leg01
+    100198: Acolyte:locator10
+    100200: Acolyte:locOri_l_clavicle01
+    100202: Acolyte:locOri_r_clavicle01
+    100204: Acolyte:locPoint_l_legIK01
+    100206: Acolyte:locPoint_r_legIK01
+    100208: Acolyte:locPole_l_elbow01
+    100210: Acolyte:locPole_l_legIK01
+    100212: Acolyte:locPole_r_elbow01
+    100214: Acolyte:locPole_r_legIK01
+    100216: Acolyte:NecromancerSet_boots
+    100218: Acolyte:NecromancerSet_gloves
+    100220: Acolyte:NecromancerSet_mask
+    100222: Acolyte:NecromancerSet_robes
+    100224: //RootNode
+    400000: Acolyte:Acolye_chest
+    400002: Acolyte:Acolye_geo
+    400004: Acolyte:Acolye_gloves
+    400006: Acolyte:Acolye_hood
+    400008: Acolyte:Acolye_rig
+    400010: Acolyte:Acolyte_body
+    400012: Acolyte:Acolyte_boots
+    400014: Acolyte:Acolyte_NecromancerArmor
+    400016: Acolyte:anim_chest01
+    400018: Acolyte:anim_COG01
+    400020: Acolyte:anim_global01
+    400022: Acolyte:anim_head01
+    400024: Acolyte:anim_hip01
+    400026: Acolyte:anim_l_clench01
+    400028: Acolyte:anim_l_elbow01
+    400030: Acolyte:anim_l_fan01
+    400032: Acolyte:anim_l_foot01
+    400034: Acolyte:anim_l_hand01
+    400036: Acolyte:anim_l_knee01
+    400038: Acolyte:anim_l_shoulder01
+    400040: Acolyte:anim_l_toes01
+    400042: Acolyte:anim_neck01
+    400044: Acolyte:anim_r_clench01
+    400046: Acolyte:anim_r_elbow01
+    400048: Acolyte:anim_r_fan01
+    400050: Acolyte:anim_r_foot01
+    400052: Acolyte:anim_r_hand01
+    400054: Acolyte:anim_r_knee01
+    400056: Acolyte:anim_r_shoulder01
+    400058: Acolyte:anim_r_toes01
+    400060: Acolyte:anim_stomach01
+    400062: Acolyte:be_l_footroll01
+    400064: Acolyte:be_r_footroll01
+    400066: Acolyte:bind_chest01
+    400068: Acolyte:bind_head01
+    400070: Acolyte:bind_l_ankle01
+    400072: Acolyte:bind_l_clavicle01
+    400074: Acolyte:bind_l_elbow01
+    400076: Acolyte:bind_l_hip01
+    400078: Acolyte:bind_l_index_a01
+    400080: Acolyte:bind_l_index_b01
+    400082: Acolyte:bind_l_index_c01
+    400084: Acolyte:bind_l_knee01
+    400086: Acolyte:bind_l_middle_a01
+    400088: Acolyte:bind_l_middle_b01
+    400090: Acolyte:bind_l_middle_c01
+    400092: Acolyte:bind_l_pinky_a01
+    400094: Acolyte:bind_l_pinky_b01
+    400096: Acolyte:bind_l_pinky_c01
+    400098: Acolyte:bind_l_ring_a01
+    400100: Acolyte:bind_l_ring_b01
+    400102: Acolyte:bind_l_ring_c01
+    400104: Acolyte:bind_l_shoulder01
+    400106: Acolyte:bind_l_thumb_a01
+    400108: Acolyte:bind_l_thumb_b01
+    400110: Acolyte:bind_l_thumb_c01
+    400112: Acolyte:bind_l_toe01
+    400114: Acolyte:bind_l_wrist01
+    400116: Acolyte:bind_neck01
+    400118: Acolyte:bind_r_ankle01
+    400120: Acolyte:bind_r_clavicle01
+    400122: Acolyte:bind_r_elbow01
+    400124: Acolyte:bind_r_hip01
+    400126: Acolyte:bind_r_index_a01
+    400128: Acolyte:bind_r_index_b01
+    400130: Acolyte:bind_r_index_c01
+    400132: Acolyte:bind_r_knee01
+    400134: Acolyte:bind_r_middle_a01
+    400136: Acolyte:bind_r_middle_b01
+    400138: Acolyte:bind_r_middle_c01
+    400140: Acolyte:bind_r_pinky_a01
+    400142: Acolyte:bind_r_pinky_b01
+    400144: Acolyte:bind_r_pinky_c01
+    400146: Acolyte:bind_r_ring_a01
+    400148: Acolyte:bind_r_ring_b01
+    400150: Acolyte:bind_r_ring_c01
+    400152: Acolyte:bind_r_shoulder01
+    400154: Acolyte:bind_r_thumb_a01
+    400156: Acolyte:bind_r_thumb_b01
+    400158: Acolyte:bind_r_thumb_c01
+    400160: Acolyte:bind_r_toe01
+    400162: Acolyte:bind_r_wrist01
+    400164: Acolyte:bind_root01
+    400166: Acolyte:bind_spine01
+    400168: Acolyte:cluster1Handle
+    400170: Acolyte:cluster3Handle
+    400172: Acolyte:cluster4Handle
+    400174: Acolyte:crv_spine01
+    400176: Acolyte:ctrlCrv_l_fingers01
+    400178: Acolyte:ctrlCrv_r_fingers01
+    400180: Acolyte:CtrlGrp_l_fingers01
+    400182: Acolyte:CtrlGrp_r_fingers01
+    400184: Acolyte:grp_controllers
+    400186: Acolyte:grp_IK_l_leg01
+    400188: Acolyte:grp_IK_r_leg01
+    400190: Acolyte:grp_IKs
+    400192: Acolyte:grp_Locators
+    400194: Acolyte:IK_l_leg01
+    400196: Acolyte:IK_r_leg01
+    400198: Acolyte:locator10
+    400200: Acolyte:locOri_l_clavicle01
+    400202: Acolyte:locOri_r_clavicle01
+    400204: Acolyte:locPoint_l_legIK01
+    400206: Acolyte:locPoint_r_legIK01
+    400208: Acolyte:locPole_l_elbow01
+    400210: Acolyte:locPole_l_legIK01
+    400212: Acolyte:locPole_r_elbow01
+    400214: Acolyte:locPole_r_legIK01
+    400216: Acolyte:NecromancerSet_boots
+    400218: Acolyte:NecromancerSet_gloves
+    400220: Acolyte:NecromancerSet_mask
+    400222: Acolyte:NecromancerSet_robes
+    400224: //RootNode
+    2100000: lambert1
+    2100002: Default_Material
+    4300000: Acolyte:Acolye_hood
+    4300002: Acolyte:Acolye_gloves
+    4300004: Acolyte:Acolyte_body
+    4300006: Acolyte:Acolyte_boots
+    4300008: Acolyte:Acolye_chest
+    4300010: Acolyte:NecromancerSet_mask
+    4300012: Acolyte:NecromancerSet_boots
+    4300014: Acolyte:NecromancerSet_gloves
+    4300016: Acolyte:NecromancerSet_robes
+    7400000: Settle
+    9500000: //RootNode
+    13700000: Acolyte:Acolye_chest
+    13700002: Acolyte:Acolye_gloves
+    13700004: Acolyte:Acolye_hood
+    13700006: Acolyte:Acolyte_body
+    13700008: Acolyte:Acolyte_boots
+    13700010: Acolyte:NecromancerSet_boots
+    13700012: Acolyte:NecromancerSet_gloves
+    13700014: Acolyte:NecromancerSet_mask
+    13700016: Acolyte:NecromancerSet_robes
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Settle' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Acolyte:bind_l_toe01' has translation animation that
+      will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 1
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Settle
+      takeName: Settle
+      firstFrame: 25
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Acolyte:bind_root01
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_hip01
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_hip01
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_knee01
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_knee01
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_ankle01
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_ankle01
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_spine01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_chest01
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_neck01
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_head01
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_clavicle01
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_clavicle01
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_shoulder01
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_shoulder01
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_elbow01
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_elbow01
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_wrist01
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_wrist01
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_toe01
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_toe01
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_thumb_a01
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_thumb_b01
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_thumb_c01
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_middle_a01
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_middle_b01
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_middle_c01
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_ring_a01
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_ring_b01
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_ring_c01
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_pinky_a01
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_pinky_b01
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_l_pinky_c01
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_thumb_a01
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_thumb_b01
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_thumb_c01
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_middle_a01
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_middle_b01
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_middle_c01
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_ring_a01
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_ring_b01
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_ring_c01
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_pinky_a01
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_pinky_b01
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Acolyte:bind_r_pinky_c01
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Settle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:Acolye_geo
+      parentName: Settle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1264042, y: 1.1264042, z: 1.1264042}
+    - name: Acolyte:Acolye_chest
+      parentName: Acolyte:Acolye_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:Acolye_gloves
+      parentName: Acolyte:Acolye_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:Acolye_hood
+      parentName: Acolyte:Acolye_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:Acolyte_body
+      parentName: Acolyte:Acolye_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:Acolyte_boots
+      parentName: Acolyte:Acolye_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:Acolye_rig
+      parentName: Settle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:grp_controllers
+      parentName: Acolyte:Acolye_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_global01
+      parentName: Acolyte:grp_controllers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_COG01
+      parentName: Acolyte:anim_global01
+      position: {x: 0.054341774, y: 0.9895592, z: 0.16588697}
+      rotation: {x: 0.17787012, y: 0.14483957, z: 0.00227428, w: 0.9733337}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_hip01
+      parentName: Acolyte:anim_COG01
+      position: {x: -0.03391903, y: 0, z: 0.09451071}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:cluster3Handle
+      parentName: Acolyte:anim_hip01
+      position: {x: -0, y: -1.4210854e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_stomach01
+      parentName: Acolyte:anim_COG01
+      position: {x: -0.018867262, y: 0.15788284, z: 0.015878847}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_chest01
+      parentName: Acolyte:anim_stomach01
+      position: {x: -0.010398989, y: 0.157424, z: 0.017216744}
+      rotation: {x: 0.015360387, y: -0.34174225, z: 0.040310413, w: 0.9388032}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_l_shoulder01
+      parentName: Acolyte:anim_chest01
+      position: {x: -0.07331599, y: 0.19615036, z: -0.059619617}
+      rotation: {x: 0.016963411, y: 0.023729233, z: -0.03949548, w: 0.99879396}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_neck01
+      parentName: Acolyte:anim_chest01
+      position: {x: 2.6193936e-17, y: 0.24718979, z: -0.032957196}
+      rotation: {x: 0, y: -0.19754967, z: -0, w: 0.9802929}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_head01
+      parentName: Acolyte:anim_neck01
+      position: {x: 4.012926e-18, y: 0.13169174, z: 0.008131418}
+      rotation: {x: -0.023158021, y: 0.3255636, z: 0.057055272, w: 0.943513}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_r_shoulder01
+      parentName: Acolyte:anim_chest01
+      position: {x: 0.073316, y: 0.19614609, z: -0.059619654}
+      rotation: {x: -0.39231947, y: -0.25251633, z: -0.08770231, w: 0.88013023}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:cluster1Handle
+      parentName: Acolyte:anim_chest01
+      position: {x: -4.9253955e-25, y: 0.00000002380576, z: -0.0000000010434185}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:cluster4Handle
+      parentName: Acolyte:anim_stomach01
+      position: {x: -1.365595e-17, y: -0.00025414326, z: 0.0053382735}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:locator10
+      parentName: Acolyte:anim_COG01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:bind_root01
+      parentName: Acolyte:locator10
+      position: {x: -0.00046098977, y: 0.022959232, z: -0.1944432}
+      rotation: {x: -0.50167847, y: 0.3270122, z: -0.6486322, w: 0.4697425}
+      scale: {x: 1.0000012, y: 1.0000004, z: 1.0000007}
+    - name: Acolyte:bind_r_hip01
+      parentName: Acolyte:bind_root01
+      position: {x: -0.000003522949, y: 5.332947e-10, z: 0.08385009}
+      rotation: {x: 0.00172317, y: -0.065391995, z: -0.028298032, w: 0.99745685}
+      scale: {x: 1.0000026, y: 1.0000033, z: 1.0000023}
+    - name: Acolyte:bind_r_knee01
+      parentName: Acolyte:bind_r_hip01
+      position: {x: 0.49042615, y: 0.00000020339722, z: -0.0000006675411}
+      rotation: {x: 0.00000012596138, y: -0.000000044703484, z: 0.14490029, w: 0.9894463}
+      scale: {x: 1.0000005, y: 0.99999964, z: 1.0000008}
+    - name: Acolyte:bind_r_ankle01
+      parentName: Acolyte:bind_r_knee01
+      position: {x: 0.4782332, y: 0.00000034477827, z: -0.000000052997475}
+      rotation: {x: 0.15520597, y: -0.023244381, z: 0.47444522, w: -0.86618274}
+      scale: {x: 1.0000005, y: 1.0000029, z: 1.0000015}
+    - name: Acolyte:be_r_footroll01
+      parentName: Acolyte:bind_r_ankle01
+      position: {x: 0.14187573, y: -0.00000022257345, z: 0.00000011641699}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:bind_r_toe01
+      parentName: Acolyte:bind_r_ankle01
+      position: {x: 0.14187574, y: -0.00000022121867, z: 0.00000011244403}
+      rotation: {x: -0.000000029802315, y: 0.00000012293455, z: -0.26050448, w: 0.96547264}
+      scale: {x: 1.0000007, y: 1.0000026, z: 1.0000015}
+    - name: Acolyte:bind_l_hip01
+      parentName: Acolyte:bind_root01
+      position: {x: 0.000000018437808, y: 2.0974955e-10, z: -0.083850145}
+      rotation: {x: 0.06539184, y: 0.0017252862, z: 0.9974569, w: 0.028297856}
+      scale: {x: 1.0000008, y: 1.0000026, z: 0.99999976}
+    - name: Acolyte:bind_l_knee01
+      parentName: Acolyte:bind_l_hip01
+      position: {x: -0.49042255, y: -8.881784e-18, z: 0}
+      rotation: {x: -0.000000036787238, y: -0.000000012340022, z: 0.14490035, w: 0.9894463}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000005}
+    - name: Acolyte:bind_l_ankle01
+      parentName: Acolyte:bind_l_knee01
+      position: {x: -0.47823328, y: 8.8817837e-17, z: -7.105427e-17}
+      rotation: {x: -0.15520582, y: 0.02324444, z: -0.4744453, w: 0.8661828}
+      scale: {x: 1.0000014, y: 1.000002, z: 1.0000014}
+    - name: Acolyte:be_l_footroll01
+      parentName: Acolyte:bind_l_ankle01
+      position: {x: -0.14187999, y: -9.201527e-10, z: 0.0000000085339735}
+      rotation: {x: -0.00013905685, y: 0.00032002418, z: -0.0010564507, w: 0.9999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:bind_l_toe01
+      parentName: Acolyte:bind_l_ankle01
+      position: {x: -0.14188005, y: 8.3622026e-10, z: 0.000000008498257}
+      rotation: {x: -0.000000014901158, y: -0.000000024214382, z: -0.2605045, w: 0.9654726}
+      scale: {x: 0.99999976, y: 1.0000004, z: 0.99999976}
+    - name: Acolyte:bind_spine01
+      parentName: Acolyte:bind_root01
+      position: {x: -0.15778036, y: -0.008909536, z: 3.701259e-17}
+      rotation: {x: -0.000000044703484, y: -0.00000010430813, z: 0.027533054, w: -0.999621}
+      scale: {x: 1.0000019, y: 1.0000018, z: 1.0000004}
+    - name: Acolyte:bind_chest01
+      parentName: Acolyte:bind_spine01
+      position: {x: -0.15772845, y: 2.6645352e-17, z: 5.8943422e-18}
+      rotation: {x: -0.000000059604638, y: -0.000000014901159, z: -0.039845835, w: 0.9992058}
+      scale: {x: 1.000002, y: 1.0000031, z: 1.0000017}
+    - name: Acolyte:bind_l_clavicle01
+      parentName: Acolyte:bind_chest01
+      position: {x: -0.20159021, y: 0.03624325, z: -0.07331599}
+      rotation: {x: -0.49837413, y: 0.58436257, z: -0.5329527, w: -0.35511273}
+      scale: {x: 0.9999996, y: 0.99999833, z: 0.99999833}
+    - name: Acolyte:bind_l_shoulder01
+      parentName: Acolyte:bind_l_clavicle01
+      position: {x: -0.08160549, y: 0, z: 2.6645352e-17}
+      rotation: {x: 0.033171453, y: 0.06951293, z: -0.10956672, w: 0.99099076}
+      scale: {x: 0.99999875, y: 1.0000011, z: 0.99999946}
+    - name: Acolyte:bind_l_elbow01
+      parentName: Acolyte:bind_l_shoulder01
+      position: {x: -0.31576607, y: -7.8992366e-16, z: 0.010031373}
+      rotation: {x: -0.006606568, y: 0.10913509, z: -0.027814982, w: 0.99361575}
+      scale: {x: 1.0000014, y: 1.0000005, z: 1.0000012}
+    - name: Acolyte:bind_l_wrist01
+      parentName: Acolyte:bind_l_elbow01
+      position: {x: -0.21371387, y: 3.763656e-16, z: -0.027447104}
+      rotation: {x: 0.0074894517, y: -0.0010773685, z: -0.06926001, w: 0.99757}
+      scale: {x: 1.0000018, y: 1, z: 0.99999994}
+    - name: Acolyte:bind_l_index_a01
+      parentName: Acolyte:bind_l_wrist01
+      position: {x: -0.1202571, y: -0.03029112, z: 0.0172363}
+      rotation: {x: 0.010663002, y: 0.045636233, z: 0.25373408, w: 0.966138}
+      scale: {x: 1.0000017, y: 1.0000005, z: 1.0000002}
+    - name: Acolyte:bind_l_index_b01
+      parentName: Acolyte:bind_l_index_a01
+      position: {x: -0.031375084, y: -0.0000013523271, z: -0.00000016742628}
+      rotation: {x: 0.000000013969837, y: -0.000000052154057, z: -0.00000008099595,
+        w: 1}
+      scale: {x: 1.0000004, y: 1.000001, z: 1.0000002}
+    - name: Acolyte:bind_l_index_c01
+      parentName: Acolyte:bind_l_index_b01
+      position: {x: -0.025580585, y: 0.0000013523271, z: 0.00000016742628}
+      rotation: {x: -0.000000021420417, y: 0.000000052154057, z: 0.000000059138976,
+        w: 1}
+      scale: {x: 1.0000012, y: 1.000001, z: 0.99999976}
+    - name: Acolyte:bind_l_middle_a01
+      parentName: Acolyte:bind_l_wrist01
+      position: {x: -0.112587795, y: -0.034750316, z: -0.008955324}
+      rotation: {x: -0.10848346, y: -0.070151836, z: 0.22090563, w: 0.96670103}
+      scale: {x: 1.0000001, y: 1.0000005, z: 0.9999995}
+    - name: Acolyte:bind_l_middle_b01
+      parentName: Acolyte:bind_l_middle_a01
+      position: {x: -0.037643738, y: -0.0000013523271, z: -0.00000016742628}
+      rotation: {x: -0.000000014901161, y: -0, z: 0.00000009033829, w: 1}
+      scale: {x: 1.0000007, y: 1.0000005, z: 0.99999994}
+    - name: Acolyte:bind_l_middle_c01
+      parentName: Acolyte:bind_l_middle_b01
+      position: {x: -0.033191137, y: 0.0000013523271, z: 0.00000016742628}
+      rotation: {x: 0.000000037252903, y: 0.000000022351738, z: -0.00000008754433,
+        w: 1}
+      scale: {x: 1.0000011, y: 1.0000015, z: 1.0000005}
+    - name: Acolyte:bind_l_pinky_a01
+      parentName: Acolyte:bind_l_wrist01
+      position: {x: -0.0899287, y: -0.051486228, z: -0.048933968}
+      rotation: {x: -0.2568257, y: -0.13413495, z: 0.17444642, w: 0.9410722}
+      scale: {x: 1.0000015, y: 1, z: 1}
+    - name: Acolyte:bind_l_pinky_b01
+      parentName: Acolyte:bind_l_pinky_a01
+      position: {x: -0.028229535, y: -0.0000013523271, z: -0.00000016742628}
+      rotation: {x: -0.000000014901161, y: -0, z: 0.000000037252903, w: 1}
+      scale: {x: 1.000002, y: 1.0000024, z: 1}
+    - name: Acolyte:bind_l_pinky_c01
+      parentName: Acolyte:bind_l_pinky_b01
+      position: {x: -0.018713502, y: 0.0000013523271, z: 0.00000016742628}
+      rotation: {x: 0.000000029802322, y: -1.110223e-15, z: -0, w: 1}
+      scale: {x: 1.0000019, y: 1.0000015, z: 1.0000002}
+    - name: Acolyte:bind_l_ring_a01
+      parentName: Acolyte:bind_l_wrist01
+      position: {x: -0.10302892, y: -0.044278778, z: -0.030130161}
+      rotation: {x: -0.257197, y: -0.13370398, z: 0.18287106, w: 0.9394313}
+      scale: {x: 1.0000023, y: 1.000002, z: 1.0000002}
+    - name: Acolyte:bind_l_ring_b01
+      parentName: Acolyte:bind_l_ring_a01
+      position: {x: -0.032142553, y: -0.0000013523271, z: -0.00000016742628}
+      rotation: {x: 0.000000014901161, y: 0.000000059604645, z: -0.000000052154064,
+        w: 1}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000001}
+    - name: Acolyte:bind_l_ring_c01
+      parentName: Acolyte:bind_l_ring_b01
+      position: {x: -0.03137264, y: 0.0000013523271, z: 0.00000016742628}
+      rotation: {x: -2.6645353e-15, y: -0.000000029802322, z: 0.000000074505806, w: 1}
+      scale: {x: 1.0000017, y: 1.0000018, z: 1.0000001}
+    - name: Acolyte:bind_l_thumb_a01
+      parentName: Acolyte:bind_l_wrist01
+      position: {x: -0.048504215, y: -0.01659968, z: 0.030705065}
+      rotation: {x: 0.25771534, y: 0.38152084, z: 0.08647088, w: 0.883486}
+      scale: {x: 1.0000036, y: 1.0000015, z: 1.0000033}
+    - name: Acolyte:bind_l_thumb_b01
+      parentName: Acolyte:bind_l_thumb_a01
+      position: {x: -0.030708127, y: 1.4210854e-16, z: 0}
+      rotation: {x: 0.000000029802319, y: 0.000000059604638, z: 0.000000059604638,
+        w: 1}
+      scale: {x: 1.0000008, y: 1.0000008, z: 1.0000018}
+    - name: Acolyte:bind_l_thumb_c01
+      parentName: Acolyte:bind_l_thumb_b01
+      position: {x: -0.038652707, y: -1.4210854e-16, z: 0}
+      rotation: {x: 0.000000014901163, y: -3.5527133e-15, z: -0.00000004470348, w: 1}
+      scale: {x: 1.0000006, y: 1.000001, z: 1.0000006}
+    - name: Acolyte:bind_neck01
+      parentName: Acolyte:bind_chest01
+      position: {x: -0.24941589, y: 2.5645717e-17, z: 7.34666e-17}
+      rotation: {x: -0.0000000305809, y: -0.000000010279055, z: -0.096948765, w: -0.99528944}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000006}
+    - name: Acolyte:bind_head01
+      parentName: Acolyte:bind_neck01
+      position: {x: -0.1319425, y: -0.000000880042, z: 3.499825e-17}
+      rotation: {x: -0.000000014901159, y: -0, z: 0.000000119209275, w: 1}
+      scale: {x: 1.0000027, y: 1.0000029, z: 1.0000019}
+    - name: Acolyte:bind_r_clavicle01
+      parentName: Acolyte:bind_chest01
+      position: {x: -0.201586, y: 0.03624378, z: 0.073316}
+      rotation: {x: -0.58438295, y: -0.4983651, z: -0.35508603, w: 0.5329566}
+      scale: {x: 0.9999989, y: 1.0000008, z: 0.9999994}
+    - name: Acolyte:bind_r_shoulder01
+      parentName: Acolyte:bind_r_clavicle01
+      position: {x: 0.08160344, y: -0.0000065797108, z: 0.00000018145252}
+      rotation: {x: 0.03205919, y: 0.06964921, z: -0.10951023, w: 0.99102414}
+      scale: {x: 0.99999994, y: 1.0000029, z: 1.0000036}
+    - name: Acolyte:bind_r_elbow01
+      parentName: Acolyte:bind_r_shoulder01
+      position: {x: 0.31577012, y: 0.000006018255, z: -0.010031565}
+      rotation: {x: -0.006604858, y: 0.10920188, z: -0.027775992, w: 0.9936095}
+      scale: {x: 0.99999964, y: 1.0000018, z: 1.0000018}
+    - name: Acolyte:bind_r_wrist01
+      parentName: Acolyte:bind_r_elbow01
+      position: {x: 0.21371092, y: -0.0000062825266, z: 0.027444456}
+      rotation: {x: 0.008602458, y: -0.0009975653, z: -0.06914728, w: 0.9975689}
+      scale: {x: 1.0000004, y: 0.9999994, z: 1.0000011}
+    - name: Acolyte:bind_r_index_a01
+      parentName: Acolyte:bind_r_wrist01
+      position: {x: 0.12025925, y: 0.03028705, z: -0.017237782}
+      rotation: {x: 0.010629065, y: 0.045644637, z: 0.25371182, w: 0.9661439}
+      scale: {x: 1.000002, y: 1.0000031, z: 1.0000036}
+    - name: Acolyte:bind_r_index_b01
+      parentName: Acolyte:bind_r_index_a01
+      position: {x: 0.03137314, y: 0.00000003880601, z: -0.00000073050535}
+      rotation: {x: -0.00000004470348, y: 0.00000002235174, z: -0.000000007974449,
+        w: 1}
+      scale: {x: 1, y: 0.99999976, z: 0.9999994}
+    - name: Acolyte:bind_r_index_c01
+      parentName: Acolyte:bind_r_index_b01
+      position: {x: 0.02558241, y: -0.00000004063083, z: 0.0000011384514}
+      rotation: {x: 0.000000013038514, y: -0.000000014901161, z: 0.000000029918734,
+        w: 1}
+      scale: {x: 0.99999994, y: 1.0000007, z: 1.0000014}
+    - name: Acolyte:bind_r_middle_a01
+      parentName: Acolyte:bind_r_wrist01
+      position: {x: 0.11259134, y: 0.0347498, z: 0.0089545045}
+      rotation: {x: -0.10851918, y: -0.07015382, z: 0.2209107, w: 0.96669567}
+      scale: {x: 1.0000019, y: 1.0000005, z: 1.0000025}
+    - name: Acolyte:bind_r_middle_b01
+      parentName: Acolyte:bind_r_middle_a01
+      position: {x: 0.037641414, y: 0.00000057529076, z: -0.00000088188483}
+      rotation: {x: 0.000000014901159, y: 0.00000002235174, z: 0.0000000037252899,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.000001, z: 1.0000007}
+    - name: Acolyte:bind_r_middle_c01
+      parentName: Acolyte:bind_r_middle_b01
+      position: {x: 0.033187833, y: -0.0000027370968, z: -0.0000015200728}
+      rotation: {x: -0.0000000372529, y: -0.000000014901159, z: -0.0000000027939677,
+        w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000008}
+    - name: Acolyte:bind_r_pinky_a01
+      parentName: Acolyte:bind_r_wrist01
+      position: {x: 0.089930005, y: 0.05148381, z: 0.048929714}
+      rotation: {x: -0.25686532, y: -0.1341289, z: 0.17442423, w: 0.9410663}
+      scale: {x: 1.0000039, y: 1.0000031, z: 1.0000036}
+    - name: Acolyte:bind_r_pinky_b01
+      parentName: Acolyte:bind_r_pinky_a01
+      position: {x: 0.028231481, y: 0.0000021512021, z: 0.00000047060342}
+      rotation: {x: 0.000000029802322, y: -0.000000029802322, z: 0.00000009685755,
+        w: 1}
+      scale: {x: 0.9999995, y: 1.0000006, z: 0.9999998}
+    - name: Acolyte:bind_r_pinky_c01
+      parentName: Acolyte:bind_r_pinky_b01
+      position: {x: 0.01871734, y: -0.00000027472947, z: 0.0000003005397}
+      rotation: {x: -0.000000029802319, y: 0.000000029802326, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: Acolyte:bind_r_ring_a01
+      parentName: Acolyte:bind_r_wrist01
+      position: {x: 0.10303117, y: 0.04427703, z: 0.030127393}
+      rotation: {x: -0.25723085, y: -0.13371547, z: 0.18287612, w: 0.9394193}
+      scale: {x: 1.0000033, y: 1.0000029, z: 1.0000046}
+    - name: Acolyte:bind_r_ring_b01
+      parentName: Acolyte:bind_r_ring_a01
+      position: {x: 0.032139044, y: 0.000000735224, z: -0.0000009070639}
+      rotation: {x: 0.000000044703473, y: 0.000000014901158, z: -0.0000000037252894,
+        w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Acolyte:bind_r_ring_c01
+      parentName: Acolyte:bind_r_ring_b01
+      position: {x: 0.031373024, y: -0.000001663208, z: -0.000000103198126}
+      rotation: {x: 0.000000014901167, y: 0.000000014901159, z: -0.000000059604638,
+        w: 1}
+      scale: {x: 0.99999946, y: 0.99999964, z: 1}
+    - name: Acolyte:bind_r_thumb_a01
+      parentName: Acolyte:bind_r_wrist01
+      position: {x: 0.048504274, y: 0.016594652, z: -0.030706665}
+      rotation: {x: 0.25768912, y: 0.38153052, z: 0.086429894, w: 0.88349354}
+      scale: {x: 1.0000037, y: 1.0000056, z: 1.0000033}
+    - name: Acolyte:bind_r_thumb_b01
+      parentName: Acolyte:bind_r_thumb_a01
+      position: {x: 0.030709814, y: 0.0000032348776, z: 0.0000013833107}
+      rotation: {x: 0.000000104308114, y: -0, z: 0.000000104308114, w: 1}
+      scale: {x: 1.0000008, y: 1.0000023, z: 1.0000005}
+    - name: Acolyte:bind_r_thumb_c01
+      parentName: Acolyte:bind_r_thumb_b01
+      position: {x: 0.038651023, y: -0.000003712644, z: -0.0000010635198}
+      rotation: {x: -0.000000029802337, y: -0.00000014901158, z: 0.000000022351745,
+        w: 1}
+      scale: {x: 1.0000011, y: 1.0000014, z: 1.0000008}
+    - name: Acolyte:anim_l_elbow01
+      parentName: Acolyte:anim_global01
+      position: {x: -0.5530895, y: 0.95366085, z: -0.34407893}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_l_foot01
+      parentName: Acolyte:anim_global01
+      position: {x: -0.09471275, y: 0.13892393, z: 0.32154608}
+      rotation: {x: 0, y: 0.22346684, z: -0, w: 0.97471154}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_l_toes01
+      parentName: Acolyte:anim_l_foot01
+      position: {x: -0.028498687, y: -0.10015576, z: 0.09636691}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:grp_IK_l_leg01
+      parentName: Acolyte:anim_l_foot01
+      position: {x: -0.02852583, y: -0.10017886, z: 0.09401393}
+      rotation: {x: 0.017326735, y: -0.119772285, z: 0.002090633, w: 0.992648}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:IK_l_leg01
+      parentName: Acolyte:grp_IK_l_leg01
+      position: {x: 0.0048400685, y: 0.10036784, z: -0.100163884}
+      rotation: {x: 0, y: 0.11979054, z: -0, w: 0.9927992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_l_hand01
+      parentName: Acolyte:anim_global01
+      position: {x: -0.3465151, y: 1.2170398, z: 0.08903691}
+      rotation: {x: 0.17103998, y: 0.10076851, z: -0.24704199, w: 0.94845206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:CtrlGrp_l_fingers01
+      parentName: Acolyte:anim_l_hand01
+      position: {x: -0.13042565, y: -0.0860337, z: 0.085605994}
+      rotation: {x: 0.24303606, y: -0.4276683, z: 0.41336596, w: 0.7662649}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_l_clench01
+      parentName: Acolyte:CtrlGrp_l_fingers01
+      position: {x: 0.012059452, y: -5.0104503e-16, z: -0.0154378}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_l_fan01
+      parentName: Acolyte:CtrlGrp_l_fingers01
+      position: {x: -0.012106642, y: 2.3513743e-16, z: 0.014646826}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:ctrlCrv_l_fingers01
+      parentName: Acolyte:CtrlGrp_l_fingers01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_r_elbow01
+      parentName: Acolyte:anim_global01
+      position: {x: 0.07615498, y: 1.165161, z: -0.6086484}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_r_foot01
+      parentName: Acolyte:anim_global01
+      position: {x: 0.17046393, y: 0.13892399, z: -0.17873663}
+      rotation: {x: 0, y: 0.08627482, z: -0, w: 0.9962714}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_r_toes01
+      parentName: Acolyte:anim_r_foot01
+      position: {x: 0.02849842, y: -0.10015254, z: 0.096364066}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:grp_IK_r_leg01
+      parentName: Acolyte:anim_r_foot01
+      position: {x: -0.208479, y: -0.13892399, z: 0.105441}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:IK_r_leg01
+      parentName: Acolyte:grp_IK_r_leg01
+      position: {x: 0.208479, y: 0.13911295, z: -0.10756504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_r_hand01
+      parentName: Acolyte:anim_global01
+      position: {x: 0.25652468, y: 1.4515802, z: 0.8794387}
+      rotation: {x: -0.54919964, y: 0.18074745, z: -0.61443764, w: 0.5368209}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:CtrlGrp_r_fingers01
+      parentName: Acolyte:anim_r_hand01
+      position: {x: 0.13042565, y: -0.0860337, z: 0.085605994}
+      rotation: {x: 0.41336596, y: 0.7662649, z: 0.24303606, w: -0.4276683}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Acolyte:anim_r_clench01
+      parentName: Acolyte:CtrlGrp_r_fingers01
+      position: {x: 0.012059452, y: 6.4285163e-16, z: 0.02278282}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_r_fan01
+      parentName: Acolyte:CtrlGrp_r_fingers01
+      position: {x: -0.012106642, y: -3.772373e-16, z: 0.014646826}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:ctrlCrv_r_fingers01
+      parentName: Acolyte:CtrlGrp_r_fingers01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:grp_IKs
+      parentName: Acolyte:Acolye_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:crv_spine01
+      parentName: Acolyte:grp_IKs
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:grp_Locators
+      parentName: Acolyte:Acolye_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:locOri_l_clavicle01
+      parentName: Acolyte:grp_Locators
+      position: {x: 0.0016380764, y: 1.4726505, z: 0.2987103}
+      rotation: {x: 0.15587004, y: -0.3073662, z: 0.08353726, w: 0.9350145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:locOri_r_clavicle01
+      parentName: Acolyte:grp_Locators
+      position: {x: 0.1359537, y: 1.4552828, z: 0.35491186}
+      rotation: {x: 0.84863126, y: -0.39962268, z: 0.3250541, w: 0.12027746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:locPoint_l_legIK01
+      parentName: Acolyte:grp_Locators
+      position: {x: -0.20847942, y: 0.1391129, z: -0.107564755}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_l_knee01
+      parentName: Acolyte:locPoint_l_legIK01
+      position: {x: 0.20799556, y: 0.4610182, z: 1.4539628}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:locPole_l_legIK01
+      parentName: Acolyte:locPoint_l_legIK01
+      position: {x: 0.20799556, y: 0.4610182, z: 1.4539628}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:locPoint_r_legIK01
+      parentName: Acolyte:grp_Locators
+      position: {x: 0.208479, y: 0.13911293, z: -0.10756504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:anim_r_knee01
+      parentName: Acolyte:locPoint_r_legIK01
+      position: {x: 0.13372293, y: 0.46101817, z: 0.5900967}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:locPole_l_elbow01
+      parentName: Acolyte:grp_Locators
+      position: {x: -0.5530895, y: 0.953661, z: -0.34407896}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:locPole_r_elbow01
+      parentName: Acolyte:grp_Locators
+      position: {x: 0.07615498, y: 1.165161, z: -0.6086484}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:locPole_r_legIK01
+      parentName: Acolyte:grp_Locators
+      position: {x: 0.34220192, y: 0.6001311, z: 0.48253164}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:Acolyte_NecromancerArmor
+      parentName: Settle(Clone)
+      position: {x: -0, y: 0.03466844, z: -0.027082017}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 6.109647, y: 6.109647, z: 6.109647}
+    - name: Acolyte:NecromancerSet_boots
+      parentName: Acolyte:Acolyte_NecromancerArmor
+      position: {x: -0, y: -0.1938705, z: 0.028465467}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.16367559, y: 0.16367559, z: 0.16367559}
+    - name: Acolyte:NecromancerSet_gloves
+      parentName: Acolyte:Acolyte_NecromancerArmor
+      position: {x: -0, y: -0.86710644, z: -0.024563512}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.16367559, y: 0.16367559, z: 0.16367559}
+    - name: Acolyte:NecromancerSet_mask
+      parentName: Acolyte:Acolyte_NecromancerArmor
+      position: {x: -0, y: -0.0017299243, z: 0.0022729512}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Acolyte:NecromancerSet_robes
+      parentName: Acolyte:Acolyte_NecromancerArmor
+      position: {x: -0, y: -0.8114536, z: 0.018488048}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.16367559, y: 0.16367559, z: 0.16367559}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
