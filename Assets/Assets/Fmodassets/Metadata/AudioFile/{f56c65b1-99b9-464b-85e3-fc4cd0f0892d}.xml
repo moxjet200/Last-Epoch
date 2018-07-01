@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{f56c65b1-99b9-464b-85e3-fc4cd0f0892d}">
+        <property name="assetPath">
+            <value>Generic_Sound_Character_Summonwraith.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>96</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>2.7306666666666666</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{3a30082e-ba72-490e-b2e2-08fe33ecf383}</destination>
+        </relationship>
+    </object>
+</objects>

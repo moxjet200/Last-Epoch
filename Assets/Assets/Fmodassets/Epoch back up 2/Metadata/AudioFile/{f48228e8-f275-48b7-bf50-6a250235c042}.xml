@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.09.00">
+    <object class="AudioFile" id="{f48228e8-f275-48b7-bf50-6a250235c042}">
+        <property name="assetPath">
+            <value>Item Sounds/Armour Helmet Visor Close 01.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>96</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>7.3871250000000002</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{3a30082e-ba72-490e-b2e2-08fe33ecf383}</destination>
+        </relationship>
+    </object>
+</objects>

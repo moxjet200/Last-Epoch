@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{3167b999-3174-414e-8cc5-5648b9aa88c5}">
+        <property name="assetPath">
+            <value>sfx_player_void_knight_abyssal_orb.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>96</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>12.288</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{3a30082e-ba72-490e-b2e2-08fe33ecf383}</destination>
+        </relationship>
+    </object>
+</objects>

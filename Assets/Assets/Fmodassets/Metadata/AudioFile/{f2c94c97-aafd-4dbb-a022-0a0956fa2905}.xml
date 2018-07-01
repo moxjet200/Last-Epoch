@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.09.00">
+    <object class="AudioFile" id="{f2c94c97-aafd-4dbb-a022-0a0956fa2905}">
+        <property name="assetPath">
+            <value>Old Assets/kama-swipe-8_bip.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.4975283446712018</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{3a30082e-ba72-490e-b2e2-08fe33ecf383}</destination>
+        </relationship>
+    </object>
+</objects>

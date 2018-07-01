@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EventFolder" id="{f14c9401-020f-45f4-a4d2-72d3b29a94e8}">
+        <property name="name">
+            <value>Void_Husk</value>
+        </property>
+        <relationship name="folder">
+            <destination>{bcd195c8-1942-457b-83cb-5431583b1b01}</destination>
+        </relationship>
+    </object>
+</objects>

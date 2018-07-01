@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.09.00">
+    <object class="AudioFile" id="{589e01f2-a737-4961-9111-35920fe594e8}">
+        <property name="assetPath">
+            <value>Old Assets/EFX INT Meat drops 03 B - Trimmed.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>96</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.090458333333333335</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{3a30082e-ba72-490e-b2e2-08fe33ecf383}</destination>
+        </relationship>
+    </object>
+</objects>

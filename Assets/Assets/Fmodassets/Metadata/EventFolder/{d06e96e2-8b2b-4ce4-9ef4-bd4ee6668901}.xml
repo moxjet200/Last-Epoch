@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EventFolder" id="{d06e96e2-8b2b-4ce4-9ef4-bd4ee6668901}">
+        <property name="name">
+            <value>Ghost_Pirate</value>
+        </property>
+        <relationship name="folder">
+            <destination>{bcd195c8-1942-457b-83cb-5431583b1b01}</destination>
+        </relationship>
+    </object>
+</objects>

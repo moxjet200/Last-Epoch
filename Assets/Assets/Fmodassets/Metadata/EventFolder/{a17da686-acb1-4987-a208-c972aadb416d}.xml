@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EventFolder" id="{a17da686-acb1-4987-a208-c972aadb416d}">
+        <property name="name">
+            <value>Thicket_Crawler</value>
+        </property>
+        <relationship name="folder">
+            <destination>{bcd195c8-1942-457b-83cb-5431583b1b01}</destination>
+        </relationship>
+    </object>
+</objects>

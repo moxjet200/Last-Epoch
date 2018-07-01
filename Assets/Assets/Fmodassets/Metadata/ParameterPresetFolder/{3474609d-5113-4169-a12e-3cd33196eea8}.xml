@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPresetFolder" id="{3474609d-5113-4169-a12e-3cd33196eea8}">
+        <property name="name">
+            <value>Mage</value>
+        </property>
+        <relationship name="folder">
+            <destination>{2e01a838-15a4-45da-8b81-de35ee30fe54}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.09.00">
+    <object class="EventFolder" id="{d7ef215e-6e2a-43e0-b844-fc51bfebcb59}">
+        <property name="name">
+            <value>Summon Vale Spirit</value>
+        </property>
+        <relationship name="folder">
+            <destination>{4717e60e-e7be-4bc1-859b-67c514729125}</destination>
+        </relationship>
+    </object>
+</objects>

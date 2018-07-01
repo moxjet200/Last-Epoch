@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPresetFolder" id="{569cd7c6-035f-4cd4-91fe-8c5ab2b19cbb}">
+        <property name="name">
+            <value>Spell Cast Sounds</value>
+        </property>
+        <relationship name="folder">
+            <destination>{a9d0bda1-06b3-0186-30e2-6c185eec8737}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EffectPreset" id="{55e5023a-6d4b-00dd-1b48-3c9eda508722}">
+        <property name="name">
+            <value>FMOD Multiband EQ</value>
+        </property>
+        <relationship name="folder">
+            <destination>{a16fa068-885a-08aa-30a4-adf3eea6185d}</destination>
+        </relationship>
+        <relationship name="effect">
+            <destination>{6a83cdc3-626f-421e-9a98-3d69d6cc5e2d}</destination>
+        </relationship>
+    </object>
+    <object class="MultibandEqEffect" id="{6a83cdc3-626f-421e-9a98-3d69d6cc5e2d}">
+        <property name="filterTypeA">
+            <value>0</value>
+        </property>
+        <property name="filterTypeB">
+            <value>9</value>
+        </property>
+        <property name="frequencyB">
+            <value>90.7609024</value>
+        </property>
+        <property name="gainB">
+            <value>3.62068892</value>
+        </property>
+    </object>
+</objects>

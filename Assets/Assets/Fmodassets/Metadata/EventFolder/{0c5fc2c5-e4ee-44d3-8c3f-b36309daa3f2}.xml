@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EventFolder" id="{0c5fc2c5-e4ee-44d3-8c3f-b36309daa3f2}">
+        <property name="name">
+            <value>Bone Golem</value>
+        </property>
+        <relationship name="folder">
+            <destination>{d22065f8-b8e1-464b-9601-63e420508635}</destination>
+        </relationship>
+    </object>
+</objects>

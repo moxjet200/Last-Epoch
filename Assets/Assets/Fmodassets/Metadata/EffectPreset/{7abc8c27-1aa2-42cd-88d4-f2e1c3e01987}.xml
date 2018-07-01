@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EffectPreset" id="{7abc8c27-1aa2-42cd-88d4-f2e1c3e01987}">
+        <property name="name">
+            <value>JuicyBones</value>
+        </property>
+        <relationship name="folder">
+            <destination>{a16fa068-885a-08aa-30a4-adf3eea6185d}</destination>
+        </relationship>
+        <relationship name="effect">
+            <destination>{2866e735-9670-4786-8e0d-f05603c565e4}</destination>
+        </relationship>
+    </object>
+    <object class="ThreeEQEffect" id="{2866e735-9670-4786-8e0d-f05603c565e4}">
+        <property name="lowGain">
+            <value>4</value>
+        </property>
+        <property name="midGain">
+            <value>3.5</value>
+        </property>
+        <property name="highGain">
+            <value>5</value>
+        </property>
+    </object>
+</objects>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EffectPreset" id="{de058c8a-c53f-0a3b-1b9c-fd0b6e004642}">
+        <property name="name">
+            <value>FMOD Compressor</value>
+        </property>
+        <relationship name="folder">
+            <destination>{a16fa068-885a-08aa-30a4-adf3eea6185d}</destination>
+        </relationship>
+        <relationship name="effect">
+            <destination>{e1634373-ca1b-48f8-9a4c-fcfc629c9f4d}</destination>
+        </relationship>
+    </object>
+    <object class="CompressorEffect" id="{e1634373-ca1b-48f8-9a4c-fcfc629c9f4d}">
+        <property name="threshold">
+            <value>-21</value>
+        </property>
+        <property name="gain">
+            <value>12</value>
+        </property>
+    </object>
+</objects>

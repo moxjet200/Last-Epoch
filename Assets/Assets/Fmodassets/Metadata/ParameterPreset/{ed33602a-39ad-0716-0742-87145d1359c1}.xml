@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{ed33602a-39ad-0716-0742-87145d1359c1}">
+        <property name="name">
+            <value>castEnd</value>
+        </property>
+        <relationship name="folder">
+            <destination>{0907b440-c0ed-4753-b341-045926510ed7}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{ad37a68a-b127-4411-b0e1-44aeaf989a60}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{ad37a68a-b127-4411-b0e1-44aeaf989a60}">
+        <property name="seekSpeed">
+            <value>0.9800000786781311</value>
+        </property>
+        <property name="seekSpeedAsymmetric">
+            <value>true</value>
+        </property>
+        <property name="isExposedRecursively">
+            <value>false</value>
+        </property>
+    </object>
+</objects>

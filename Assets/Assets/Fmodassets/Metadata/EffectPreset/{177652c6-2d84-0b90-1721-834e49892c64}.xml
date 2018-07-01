@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EffectPreset" id="{177652c6-2d84-0b90-1721-834e49892c64}">
+        <property name="name">
+            <value>FMOD Reverb</value>
+        </property>
+        <relationship name="folder">
+            <destination>{a16fa068-885a-08aa-30a4-adf3eea6185d}</destination>
+        </relationship>
+        <relationship name="effect">
+            <destination>{28109d3f-22a0-4953-96f1-82b94515f56b}</destination>
+        </relationship>
+    </object>
+    <object class="SFXReverbEffect" id="{28109d3f-22a0-4953-96f1-82b94515f56b}"/>
+</objects>

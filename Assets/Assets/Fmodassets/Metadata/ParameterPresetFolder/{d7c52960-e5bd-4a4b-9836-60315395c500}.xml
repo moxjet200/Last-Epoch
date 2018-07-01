@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPresetFolder" id="{d7c52960-e5bd-4a4b-9836-60315395c500}">
+        <property name="name">
+            <value>Ice Tornado</value>
+        </property>
+        <relationship name="folder">
+            <destination>{3474609d-5113-4169-a12e-3cd33196eea8}</destination>
+        </relationship>
+    </object>
+</objects>

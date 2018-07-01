@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EventFolder" id="{49bf504e-53da-44c0-956e-a572c447863e}">
+        <property name="name">
+            <value>Crafting_Tab</value>
+        </property>
+        <relationship name="folder">
+            <destination>{39028dfb-12cf-45ca-9fd1-099cdeb2456b}</destination>
+        </relationship>
+    </object>
+</objects>

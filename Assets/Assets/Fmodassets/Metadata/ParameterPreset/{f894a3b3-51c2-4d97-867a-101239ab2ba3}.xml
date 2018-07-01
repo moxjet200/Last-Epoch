@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{f894a3b3-51c2-4d97-867a-101239ab2ba3}">
+        <property name="name">
+            <value>EventHorizon4</value>
+        </property>
+        <relationship name="folder">
+            <destination>{a9d0bda1-06b3-0186-30e2-6c185eec8737}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{7ed2890e-bee5-4efc-865c-618e1b68904b}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{7ed2890e-bee5-4efc-865c-618e1b68904b}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>
