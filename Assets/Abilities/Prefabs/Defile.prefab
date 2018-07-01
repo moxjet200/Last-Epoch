@@ -1,0 +1,257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1731413167883808}
+  m_IsPrefabParent: 1
+--- !u!1 &1731413167883808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4065771147879876}
+  - component: {fileID: 114765283787694644}
+  - component: {fileID: 114419777812332586}
+  - component: {fileID: 114193299639426884}
+  - component: {fileID: 114914833907436466}
+  - component: {fileID: 114327427001921296}
+  - component: {fileID: 114806107875971554}
+  - component: {fileID: 54070797110648986}
+  - component: {fileID: 114134412657166952}
+  - component: {fileID: 114293430090086234}
+  - component: {fileID: 114987711425065902}
+  - component: {fileID: 114666404013066170}
+  - component: {fileID: 114476587023544606}
+  - component: {fileID: 114890383531746102}
+  - component: {fileID: 114417941900026830}
+  m_Layer: 11
+  m_Name: Defile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4065771147879876
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731413167883808}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &54070797110648986
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731413167883808}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &114134412657166952
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731413167883808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25419408e2b07ed4dbd142e4975837b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  creator: {fileID: 0}
+  locationCreatedFrom: {x: 0, y: 0, z: 0}
+  thisAbility: {fileID: 0}
+--- !u!114 &114193299639426884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731413167883808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e40bfc05116c0ba4fb9f51fac6069dc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runOnCreation: 1
+  enemiesHit: []
+  alliesHit: []
+  cannotHaveSharedhitDetector: 0
+  sharedHitDetector: {fileID: 0}
+--- !u!114 &114293430090086234
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731413167883808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a665ad3e0a28664eb5f190f5260a046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachToCaster: 0
+  passOnLocationDetector: 0
+  passOnCreationReferences: 0
+  increasedRadius: 0
+  increasedHeight: 0
+  createOnStartInstead: 0
+  rotationToPassOn: 1
+  objectsToCreateOnDeath:
+  - gameObject: {fileID: 1526209055161434, guid: 83029a74b77ed3f40b627919c362676a,
+      type: 2}
+--- !u!114 &114327427001921296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731413167883808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea8956c4165404747abd3480bce301b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  failedAbility: 0
+--- !u!114 &114417941900026830
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731413167883808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93299fb6b75dcd40b93333004c29539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playEvent: 0
+  sound: event:/Abilities/Necromancer/Defile
+  active: 1
+--- !u!114 &114419777812332586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731413167883808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1f3f79b1fc9d764796de28ea555231f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alignment: {fileID: 0}
+--- !u!114 &114476587023544606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731413167883808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e8b265c2557f09489fd6b9cafe9296e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startLocation: {x: 0, y: 0, z: 0}
+  reachedTargetLocation: 0
+  targetLocationOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &114666404013066170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731413167883808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12d0184d718c7654aa30fb9b1641404d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 2.7
+  abilityObject: {fileID: 11400000, guid: a983d38df1b92f94983b8d22a92fb020, type: 2}
+  health: 0
+  mana: 0
+  ward: 20
+  eraseCorpses: 1
+  spawnAtHit: 1
+  prefabToSpawnAtCorpses: {fileID: 1901202086743756, guid: 09cacfd6bdae10c499bd0b1567233b42,
+    type: 2}
+--- !u!114 &114765283787694644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731413167883808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65b721a8facb8f14aad5cebe577cdd77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionDelta: {x: 0, y: 0, z: 0}
+  speed: 0
+  fixedY: 0
+  staysOnGround: 0
+  yOffSetWhenStayingOnGround: 0
+--- !u!114 &114806107875971554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731413167883808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831ca9f5f2dea224fa9ebfadd8935e86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 0.01
+  age: 0
+--- !u!114 &114890383531746102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731413167883808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac764802b9709a74a9ad50d1fc2900e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  facesAwayFromStart: 0
+--- !u!114 &114914833907436466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731413167883808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebe5d95b052aebc4885bb172fa4b2fb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114987711425065902
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731413167883808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6bae83a3c806245b232db0efb99a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

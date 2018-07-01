@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f9facd6988cc9419007e03b8f62a96, type: 3}
+  m_Name: StatueFireCircle
+  m_EditorClassIdentifier: 
+  abilityName: Fire Circle
+  abilitySprite: {fileID: 0}
+  playerAbilityID: 
+  useDelay: 0.43
+  useDuration: 0.75
+  manaCost: 0
+  abilityPrefab: {fileID: 1921155278268838, guid: be40db4709de6cb45afdf1eca1a37b91,
+    type: 2}
+  animation: 0
+  sharedHitDetector: 0
+  speedScaler: 3
+  speedMultiplier: 1
+  useTags: 01000000040000000d000000
+  fakeUseTags: 
+  useSound: 
+  beginUseSound: 
+  delayedCasts: 0
+  delayedCastDuration: 0.25
+  maxCharges: 0
+  chargesGainedPerSecond: 0
+  requiresAccessibleTargetLocation: 0
+  useCastPoints: 1
+  instantCastForPlayer: 0
+  moveIntoRangeBeforeUse: 0
+  stopRange: 1
+  stopRangeAffectedByWeaponRange: 0
+  movementDuringUse: 0
+  baseMovementDuration: 0
+  movementDurationPerUnitDistance: 0
+  immuneDuringMovement: 0
+  landingDistanceFromTarget: 0
+  canMoveBack: 0
+  stopMovementOnKeyRelease: 0
+  changeDestinationWhileMoving: 0
+  targetsSelfOnly: 0
+  targetsAllies: 0
+  nonStackingAttachable: 0
+  requiredLifeState: 0
+  limitRangeForPlayers: 0
+  rangeLimitForPlayers: 0
+  requireWeaponType: 0
+  permittedWeaponTypes: 
+  skillLore: 
+  description: 

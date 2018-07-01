@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f9facd6988cc9419007e03b8f62a96, type: 3}
+  m_Name: ErasingStrike
+  m_EditorClassIdentifier: 
+  abilityName: Erasing Strike
+  abilitySprite: {fileID: 21300000, guid: 83706168cd8b43141a85f2a0faa8b87d, type: 3}
+  playerAbilityID: es6ai
+  useDelay: 0.2
+  useDuration: 0.75
+  manaCost: 60
+  abilityPrefab: {fileID: 1795308578828318, guid: 68c7bccf4e8c6d541a0b8e4927e7694a,
+    type: 2}
+  animation: 9
+  sharedHitDetector: 1
+  speedScaler: 2
+  speedMultiplier: 0.8
+  useTags: 070000000b000000
+  fakeUseTags: 
+  useSound: 
+  beginUseSound: 
+  delayedCasts: 0
+  delayedCastDuration: 0.25
+  maxCharges: 0
+  chargesGainedPerSecond: 0
+  requiresAccessibleTargetLocation: 0
+  useCastPoints: 1
+  instantCastForPlayer: 0
+  moveIntoRangeBeforeUse: 0
+  stopRange: 1.65
+  stopRangeAffectedByWeaponRange: 0
+  movementDuringUse: 0
+  baseMovementDuration: 0
+  movementDurationPerUnitDistance: 0
+  immuneDuringMovement: 0
+  landingDistanceFromTarget: 0
+  canMoveBack: 0
+  animationDurationMatchesMovement: 0
+  baseMovementAnimationLength: 1
+  stopAtEdgeOfNavmesh: 0
+  stayAtGroundHeight: 0
+  stopWhenOutOfMana: 0
+  stopMovementOnKeyRelease: 0
+  changeDestinationWhileMoving: 0
+  targetsSelfOnly: 0
+  targetsAllies: 0
+  nonStackingAttachable: 0
+  requiredLifeState: 0
+  doNotUpdateTargetLocation: 1
+  limitRangeForPlayers: 0
+  rangeLimitForPlayers: 0
+  requireWeaponType: 0
+  permittedWeaponTypes: 
+  requiresSheild: 0
+  skillLore: 
+  description: A melee attack that hits all enemies in a large area in front of you.
+    Enemies killed by the hit are erased from existance, replaced by void rifts. Added
+    melee damage has 170% effectiveness on the initial hit, but none on the void rifts,
+    which are spells.

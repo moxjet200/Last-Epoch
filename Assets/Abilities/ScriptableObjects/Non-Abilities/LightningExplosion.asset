@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f9facd6988cc9419007e03b8f62a96, type: 3}
+  m_Name: LightningExplosion
+  m_EditorClassIdentifier: 
+  abilityName: Lightning Explosion
+  abilitySprite: {fileID: 21300000, guid: c6b0c85fde9c99145878edb534d82128, type: 3}
+  playerAbilityID: ln24
+  useDelay: 0.4
+  useDuration: 0.75
+  manaCost: 7
+  abilityPrefab: {fileID: 1016130625885008, guid: 2713c9973dc75f0478d36ed9be1d1827,
+    type: 2}
+  animation: 0
+  sharedHitDetector: 1
+  speedScaler: 3
+  speedMultiplier: 1
+  useTags: 010000000d00000006000000
+  fakeUseTags: 
+  useSound: 
+  beginUseSound: 
+  delayedCasts: 0
+  delayedCastDuration: 0.25
+  maxCharges: 0
+  chargesGainedPerSecond: 0
+  requiresAccessibleTargetLocation: 0
+  useCastPoints: 1
+  moveIntoRangeBeforeUse: 0
+  stopRange: 1
+  stopRangeAffectedByWeaponRange: 0
+  movementDuringUse: 0
+  baseMovementDuration: 0
+  movementDurationPerUnitDistance: 0
+  immuneDuringMovement: 0
+  landingDistanceFromTarget: 0
+  targetsAllies: 0
+  nonStackingAttachable: 0
+  requiredLifeState: 0
+  limitRangeForPlayers: 0
+  rangeLimitForPlayers: 0
+  requireWeaponType: 0
+  permittedWeaponTypes: 
+  skillLore: 
+  description: 

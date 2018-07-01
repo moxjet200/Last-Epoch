@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1809877133313116}
+  m_IsPrefabParent: 1
+--- !u!1 &1809877133313116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4557188227030428}
+  - component: {fileID: 136606178092735198}
+  - component: {fileID: 136418380316843786}
+  - component: {fileID: 114068619208624710}
+  - component: {fileID: 114763505065397928}
+  - component: {fileID: 114992283965514206}
+  - component: {fileID: 114472499526756748}
+  - component: {fileID: 114646947859568722}
+  - component: {fileID: 114012961994108714}
+  - component: {fileID: 114512788055484582}
+  - component: {fileID: 54695802133950958}
+  - component: {fileID: 114053905778778620}
+  - component: {fileID: 114239977098376090}
+  - component: {fileID: 114975593201946030}
+  m_Layer: 11
+  m_Name: StatueSmallFireCircleNova
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4557188227030428
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809877133313116}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &54695802133950958
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809877133313116}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &114012961994108714
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809877133313116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea8956c4165404747abd3480bce301b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114053905778778620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809877133313116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25419408e2b07ed4dbd142e4975837b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  creator: {fileID: 0}
+  locationCreatedFrom: {x: 0, y: 0, z: 0}
+  thisAbility: {fileID: 0}
+--- !u!114 &114068619208624710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809877133313116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65b721a8facb8f14aad5cebe577cdd77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionDelta: {x: 0, y: 0, z: 0}
+  speed: 0
+  fixedY: 0
+  staysOnGround: 0
+  yOffSetWhenStayingOnGround: 0
+--- !u!114 &114239977098376090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809877133313116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a665ad3e0a28664eb5f190f5260a046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachToCaster: 0
+  passOnLocationDetector: 0
+  passOnCreationReferences: 0
+  increasedRadius: 0
+  increasedHeight: 0
+  createOnStartInstead: 0
+  rotationToPassOn: 0
+  objectsToCreateOnDeath:
+  - gameObject: {fileID: 1525168511335570, guid: 2c08c9e7975366141b346b317aa909cb,
+      type: 2}
+--- !u!114 &114472499526756748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809877133313116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e40bfc05116c0ba4fb9f51fac6069dc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runOnCreation: 1
+  enemiesHit: []
+  alliesHit: []
+  cannotHaveSharedhitDetector: 0
+  sharedHitDetector: {fileID: 0}
+--- !u!114 &114512788055484582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809877133313116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831ca9f5f2dea224fa9ebfadd8935e86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 0.01
+  age: 0
+--- !u!114 &114646947859568722
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809877133313116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebe5d95b052aebc4885bb172fa4b2fb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114763505065397928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809877133313116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b8a27f1fee3f86418497e85604c8ae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseDamageStats:
+    damage:
+    - damageType: 1
+      value: 23
+    critChance: 0.05
+    critMultiplier: 2
+    noCritMultiplier: 0
+    isHit: 1
+    cullPercent: 0
+    increasedStunChance: 0
+    addedDamageScaling: 1
+    penetrationStats: []
+  tags: 010000000d00000018000000
+  canDamageSameEnemyAgain: 0
+--- !u!114 &114975593201946030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809877133313116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93299fb6b75dcd40b93333004c29539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playEvent: 0
+  sound: event:/Abilities/Mage/fire_Nova
+--- !u!114 &114992283965514206
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809877133313116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1f3f79b1fc9d764796de28ea555231f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alignment: {fileID: 0}
+--- !u!136 &136418380316843786
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809877133313116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1
+  m_Height: 3
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &136606178092735198
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809877133313116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1
+  m_Height: 3
+  m_Direction: 0
+  m_Center: {x: 0, y: 0, z: 0}

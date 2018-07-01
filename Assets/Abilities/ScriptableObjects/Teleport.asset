@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f9facd6988cc9419007e03b8f62a96, type: 3}
+  m_Name: Teleport
+  m_EditorClassIdentifier: 
+  abilityName: Teleport
+  abilitySprite: {fileID: 21300000, guid: 062231ea38fb65c46a099ded69e821db, type: 3}
+  playerAbilityID: te44
+  useDelay: 0.15
+  useDuration: 0.75
+  manaCost: 60
+  abilityPrefab: {fileID: 1556913956770244, guid: 3bf8ce6c9d57b8d4f99e94a79cf23a87,
+    type: 2}
+  animation: 0
+  sharedHitDetector: 0
+  speedScaler: 3
+  speedMultiplier: 1
+  useTags: 01000000
+  fakeUseTags: 
+  useSound: 
+  beginUseSound: 
+  delayedCasts: 0
+  delayedCastDuration: 0.25
+  maxCharges: 0
+  chargesGainedPerSecond: 0
+  requiresAccessibleTargetLocation: 1
+  useCastPoints: 1
+  instantCastForPlayer: 0
+  moveIntoRangeBeforeUse: 0
+  stopRange: 1
+  stopRangeAffectedByWeaponRange: 0
+  movementDuringUse: 0
+  baseMovementDuration: 0
+  movementDurationPerUnitDistance: 0
+  immuneDuringMovement: 0
+  landingDistanceFromTarget: 0
+  canMoveBack: 0
+  animationDurationMatchesMovement: 0
+  baseMovementAnimationLength: 1
+  stopAtEdgeOfNavmesh: 0
+  stayAtGroundHeight: 0
+  stopWhenOutOfMana: 0
+  stopMovementOnKeyRelease: 0
+  changeDestinationWhileMoving: 0
+  targetsSelfOnly: 0
+  targetsAllies: 0
+  nonStackingAttachable: 0
+  requiredLifeState: 0
+  doNotUpdateTargetLocation: 0
+  limitRangeForPlayers: 0
+  rangeLimitForPlayers: 0
+  requireWeaponType: 0
+  permittedWeaponTypes: 
+  requiresSheild: 0
+  skillLore: 
+  description: 'Teleport to target location '

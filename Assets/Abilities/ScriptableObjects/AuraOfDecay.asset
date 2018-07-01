@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f9facd6988cc9419007e03b8f62a96, type: 3}
+  m_Name: AuraOfDecay
+  m_EditorClassIdentifier: 
+  abilityName: Aura Of Decay
+  abilitySprite: {fileID: 21300000, guid: 3278077678c1fae4893ed7a1fd6e3f9f, type: 3}
+  playerAbilityID: ad0ry
+  useDelay: 0.43
+  useDuration: 0.75
+  manaCost: 0
+  abilityPrefab: {fileID: 1008952106993778, guid: 3c2d8098b4e40584e9231f19a20d2f63,
+    type: 2}
+  animation: 0
+  sharedHitDetector: 0
+  speedScaler: 3
+  speedMultiplier: 1
+  useTags: 09000000
+  fakeUseTags: 
+  useSound: 
+  beginUseSound: 
+  delayedCasts: 0
+  delayedCastDuration: 0.25
+  maxCharges: 1
+  chargesGainedPerSecond: 1
+  requiresAccessibleTargetLocation: 0
+  useCastPoints: 1
+  instantCastForPlayer: 1
+  channelled: 0
+  canUpdateTargetWhileChannelling: 0
+  moveIntoRangeBeforeUse: 0
+  stopRange: 1
+  stopRangeAffectedByWeaponRange: 0
+  movementDuringUse: 0
+  baseMovementDuration: 0
+  movementDurationPerUnitDistance: 0
+  immuneDuringMovement: 0
+  landingDistanceFromTarget: 0
+  canMoveBack: 0
+  animationDurationMatchesMovement: 0
+  baseMovementAnimationLength: 1
+  stopAtEdgeOfNavmesh: 0
+  stayAtGroundHeight: 0
+  stopWhenOutOfMana: 0
+  stopMovementOnKeyRelease: 0
+  changeDestinationWhileMoving: 0
+  targetsSelfOnly: 1
+  targetsAllies: 1
+  nonStackingAttachable: 1
+  requiredLifeState: 0
+  doNotUpdateTargetLocation: 0
+  limitRangeForPlayers: 0
+  rangeLimitForPlayers: 0
+  requireWeaponType: 0
+  permittedWeaponTypes: 
+  requiresSheild: 0
+  skillLore: 
+  description: Toggles aura of decay, which poisons you every second, and leaves a
+    trail of decay. Enemies near you or in the trail are poisoned twice per second.
+    You take 60% less poison damage while aura of decay is active.

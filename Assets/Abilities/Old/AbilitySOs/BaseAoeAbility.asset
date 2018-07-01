@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82003c7419be141eea27cf88531f037a, type: 3}
+  m_Name: BaseAoeAbility
+  m_EditorClassIdentifier: 
+  abilityName: BaseAoeAbility
+  abilitySprite: {fileID: 21300000, guid: 181c710dd55be9a49ad56a77498b9829, type: 3}
+  actionTime: 1
+  manaCost: 10
+  critChance: 0.2
+  critMultiplier: 0
+  actionSound: []
+  abilityInUse: 0
+  damage: 100
+  radius: 10
+  dmgType: 0
+  effectObject: {fileID: 1000013414875788, guid: 6bcc2f06066f2534fac994e2c2cca180,
+    type: 2}

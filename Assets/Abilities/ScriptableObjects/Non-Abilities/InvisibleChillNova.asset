@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f9facd6988cc9419007e03b8f62a96, type: 3}
+  m_Name: InvisibleChillNova
+  m_EditorClassIdentifier: 
+  abilityName: Chill Nova
+  abilitySprite: {fileID: 21300000, guid: a52e80cd363df894f9b3597826ec839a, type: 3}
+  playerAbilityID: fn10
+  useDelay: 0.4
+  useDuration: 0.75
+  manaCost: 7
+  abilityPrefab: {fileID: 1556913956770244, guid: 55a82accde87bba4f8ab098c072a9437,
+    type: 2}
+  animation: 0
+  sharedHitDetector: 1
+  speedScaler: 3
+  speedMultiplier: 1
+  useTags: 01000000050000000d000000
+  useSound: 
+  beginUseSound: 
+  delayedCasts: 0
+  delayedCastDuration: 0.25
+  maxCharges: 0
+  chargesGainedPerSecond: 0
+  requiresAccessibleTargetLocation: 0
+  useCastPoints: 1
+  moveIntoRangeBeforeUse: 0
+  stopRange: 1
+  stopRangeAffectedByWeaponRange: 0
+  movementDuringUse: 0
+  baseMovementDuration: 0
+  movementDurationPerUnitDistance: 0
+  immuneDuringMovement: 0
+  targetsAllies: 0
+  nonStackingAttachable: 0
+  requiredLifeState: 0
+  limitRangeForPlayers: 0
+  rangeLimitForPlayers: 0
+  requireWeaponType: 0
+  permittedWeaponTypes: 
+  skillLore: 
+  description: 

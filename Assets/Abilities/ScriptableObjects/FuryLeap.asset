@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f9facd6988cc9419007e03b8f62a96, type: 3}
+  m_Name: FuryLeap
+  m_EditorClassIdentifier: 
+  abilityName: Fury Leap
+  abilitySprite: {fileID: 21300000, guid: 541e94af4a1b51547be669689843deb0, type: 3}
+  playerAbilityID: fl13
+  useDelay: 0.2
+  useDuration: 0.23
+  manaCost: 20
+  abilityPrefab: {fileID: 1556913956770244, guid: 421be9ce2e0a2df4988c6ac19f6f5ff9,
+    type: 2}
+  animation: 2
+  sharedHitDetector: 0
+  speedScaler: 2
+  speedMultiplier: 1
+  useTags: 020000000b000000
+  fakeUseTags: 
+  useSound: 
+  beginUseSound: 
+  delayedCasts: 0
+  delayedCastDuration: 0.25
+  maxCharges: 1
+  chargesGainedPerSecond: 0.14
+  requiresAccessibleTargetLocation: 1
+  useCastPoints: 1
+  instantCastForPlayer: 0
+  moveIntoRangeBeforeUse: 0
+  stopRange: 1
+  stopRangeAffectedByWeaponRange: 0
+  movementDuringUse: 1
+  baseMovementDuration: 0.3
+  movementDurationPerUnitDistance: 0.05
+  immuneDuringMovement: 0
+  landingDistanceFromTarget: 0
+  canMoveBack: 0
+  animationDurationMatchesMovement: 1
+  baseMovementAnimationLength: 1.375
+  stopAtEdgeOfNavmesh: 0
+  stayAtGroundHeight: 0
+  stopWhenOutOfMana: 0
+  stopMovementOnKeyRelease: 0
+  changeDestinationWhileMoving: 0
+  targetsSelfOnly: 0
+  targetsAllies: 0
+  nonStackingAttachable: 0
+  requiredLifeState: 0
+  doNotUpdateTargetLocation: 0
+  limitRangeForPlayers: 1
+  rangeLimitForPlayers: 20
+  requireWeaponType: 0
+  permittedWeaponTypes: 
+  requiresSheild: 0
+  skillLore: 
+  description: Leap to the target location, dealing damage to nearby enemies when
+    you hit the ground. Doubles any added damage. Has a 7 second cooldown that resets
+    on kill.

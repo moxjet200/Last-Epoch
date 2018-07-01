@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f9facd6988cc9419007e03b8f62a96, type: 3}
+  m_Name: EnemyFireNova
+  m_EditorClassIdentifier: 
+  abilityName: Fire Nova
+  abilitySprite: {fileID: 21300000, guid: a52e80cd363df894f9b3597826ec839a, type: 3}
+  useDelay: 1.1
+  useDuration: 2.5
+  manaCost: 7
+  abilityPrefab: {fileID: 1556913956770244, guid: 4c7bb535718cde342a9f3fbebad68409,
+    type: 2}
+  sharedHitDetector: 1
+  requiresAccessibleTargetLocation: 0
+  targetsAllies: 0
+  nonStackingAttachable: 0
+  requiredLifeState: 0
+  skillLore: 
+  description: 

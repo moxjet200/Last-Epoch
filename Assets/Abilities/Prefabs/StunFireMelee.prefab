@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1234241657442290}
+  m_IsPrefabParent: 1
+--- !u!1 &1234241657442290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4289156280426582}
+  - component: {fileID: 114858533700909272}
+  - component: {fileID: 114453714319209746}
+  - component: {fileID: 114940729661239446}
+  - component: {fileID: 114661437769881746}
+  - component: {fileID: 114292302632617600}
+  - component: {fileID: 114602340639238456}
+  - component: {fileID: 54904742910029588}
+  - component: {fileID: 114535017254115118}
+  - component: {fileID: 114989984848669494}
+  - component: {fileID: 114684602816571580}
+  - component: {fileID: 114980708614695326}
+  - component: {fileID: 114030373829572812}
+  - component: {fileID: 114694606664734708}
+  m_Layer: 11
+  m_Name: StunFireMelee
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4289156280426582
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234241657442290}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &54904742910029588
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234241657442290}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &114030373829572812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234241657442290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f131e72ee1c89e04680e14ce20537cbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abilityToInstantiate: {fileID: 11400000, guid: 26dd06a271843a04cb12e3805252591f,
+    type: 2}
+  aimingMethod: 2
+  createAtTarget: 0
+  offset: {x: 0, y: -0.9, z: 0}
+--- !u!114 &114292302632617600
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234241657442290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea8956c4165404747abd3480bce301b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114453714319209746
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234241657442290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65b721a8facb8f14aad5cebe577cdd77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionDelta: {x: 0, y: 0, z: 0}
+  speed: 0
+  fixedY: 0
+  staysOnGround: 0
+  yOffSetWhenStayingOnGround: 0
+--- !u!114 &114535017254115118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234241657442290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25419408e2b07ed4dbd142e4975837b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  creator: {fileID: 0}
+  locationCreatedFrom: {x: 0, y: 0, z: 0}
+  thisAbility: {fileID: 0}
+--- !u!114 &114602340639238456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234241657442290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831ca9f5f2dea224fa9ebfadd8935e86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 0.01
+  age: 0
+--- !u!114 &114661437769881746
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234241657442290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e40bfc05116c0ba4fb9f51fac6069dc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runOnCreation: 1
+  enemiesHit: []
+  alliesHit: []
+  cannotHaveSharedhitDetector: 0
+  sharedHitDetector: {fileID: 0}
+--- !u!114 &114684602816571580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234241657442290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6bae83a3c806245b232db0efb99a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114694606664734708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234241657442290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93299fb6b75dcd40b93333004c29539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playEvent: 0
+  sound: event:/Abilities/Mage/Meteor_Hit6
+--- !u!114 &114858533700909272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234241657442290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebe5d95b052aebc4885bb172fa4b2fb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114940729661239446
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234241657442290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1f3f79b1fc9d764796de28ea555231f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alignment: {fileID: 0}
+--- !u!114 &114980708614695326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234241657442290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f131e72ee1c89e04680e14ce20537cbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abilityToInstantiate: {fileID: 11400000, guid: 4cce50842aba6ce479350565f4f25dd1,
+    type: 2}
+  aimingMethod: 2
+  createAtTarget: 0
+  offset: {x: 0, y: -0.9, z: 0}
+--- !u!114 &114989984848669494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234241657442290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253437ddf6a3a024397ee1529eb83e5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  distance: 3
+  addWeaponRange: 0

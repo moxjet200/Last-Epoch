@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f9facd6988cc9419007e03b8f62a96, type: 3}
+  m_Name: StaticOrb
+  m_EditorClassIdentifier: 
+  abilityName: Static Orb
+  abilitySprite: {fileID: 21300000, guid: e09b53a5fec699141aaa10d346bbb2e1, type: 3}
+  playerAbilityID: so35a
+  useDelay: 0.43
+  useDuration: 0.75
+  manaCost: 15
+  abilityPrefab: {fileID: 1979965143431396, guid: e12bd5cf907f37549bd3fa7bb31620f3,
+    type: 2}
+  animation: 0
+  sharedHitDetector: 0
+  speedScaler: 3
+  speedMultiplier: 0.9
+  useTags: 0600000001000000
+  fakeUseTags: 
+  useSound: 
+  beginUseSound: 
+  delayedCasts: 0
+  delayedCastDuration: 0.25
+  maxCharges: 0
+  chargesGainedPerSecond: 0
+  requiresAccessibleTargetLocation: 0
+  useCastPoints: 1
+  instantCastForPlayer: 0
+  moveIntoRangeBeforeUse: 0
+  stopRange: 1
+  stopRangeAffectedByWeaponRange: 0
+  movementDuringUse: 0
+  baseMovementDuration: 0
+  movementDurationPerUnitDistance: 0
+  immuneDuringMovement: 0
+  landingDistanceFromTarget: 0
+  canMoveBack: 0
+  animationDurationMatchesMovement: 0
+  baseMovementAnimationLength: 1
+  stopAtEdgeOfNavmesh: 0
+  stayAtGroundHeight: 0
+  stopWhenOutOfMana: 0
+  stopMovementOnKeyRelease: 0
+  changeDestinationWhileMoving: 0
+  targetsSelfOnly: 0
+  targetsAllies: 0
+  nonStackingAttachable: 0
+  requiredLifeState: 0
+  doNotUpdateTargetLocation: 0
+  limitRangeForPlayers: 0
+  rangeLimitForPlayers: 0
+  requireWeaponType: 0
+  permittedWeaponTypes: 
+  requiresSheild: 0
+  skillLore: 
+  description: Casts an orb in a target direction that deals lightning damage and
+    pulls enemies that it hits towards it as it travels. At the end of its path it
+    discharges, dealing lightning damage to enemies around it.

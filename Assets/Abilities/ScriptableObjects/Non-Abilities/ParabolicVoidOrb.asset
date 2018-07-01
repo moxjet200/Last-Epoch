@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f9facd6988cc9419007e03b8f62a96, type: 3}
+  m_Name: ParabolicVoidOrb
+  m_EditorClassIdentifier: 
+  abilityName: Abyssal Orb
+  abilitySprite: {fileID: 21300000, guid: 1c97e55364a3ba547bcc6cb4c07d5de0, type: 3}
+  playerAbilityID: dvOrb
+  useDelay: 0.5
+  useDuration: 1
+  manaCost: 5
+  abilityPrefab: {fileID: 1732502899846784, guid: f755606767adbd3499ef92beb84a83bc,
+    type: 2}
+  animation: 0
+  sharedHitDetector: 1
+  speedScaler: 3
+  speedMultiplier: 1
+  useTags: 01000000070000000c000000
+  fakeUseTags: 
+  useSound: 
+  beginUseSound: 
+  delayedCasts: 0
+  delayedCastDuration: 0.2
+  maxCharges: 0
+  chargesGainedPerSecond: 0
+  requiresAccessibleTargetLocation: 0
+  useCastPoints: 1
+  instantCastForPlayer: 0
+  moveIntoRangeBeforeUse: 0
+  stopRange: 1
+  stopRangeAffectedByWeaponRange: 0
+  movementDuringUse: 0
+  baseMovementDuration: 0
+  movementDurationPerUnitDistance: 0
+  immuneDuringMovement: 0
+  landingDistanceFromTarget: 0
+  canMoveBack: 0
+  stopMovementOnKeyRelease: 0
+  changeDestinationWhileMoving: 0
+  targetsSelfOnly: 0
+  targetsAllies: 0
+  nonStackingAttachable: 0
+  requiredLifeState: 0
+  limitRangeForPlayers: 0
+  rangeLimitForPlayers: 0
+  requireWeaponType: 0
+  permittedWeaponTypes: 
+  skillLore: 
+  description: An orb of pure void energy, seeking out your enemies and destroying
+    them

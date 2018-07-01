@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a480f47a6d1a093458528b170d7fd9c2, type: 3}
+  m_Name: Frostbolt
+  m_EditorClassIdentifier: 
+  abilityName: Frostbolt
+  abilitySprite: {fileID: 21300000, guid: 23a15b38039502b459655f4ede818273, type: 3}
+  actionTime: 1
+  manaCost: 2
+  critChance: 0.15
+  critMultiplier: 2
+  actionSound:
+  - {fileID: 8300000, guid: 678207c15b29cf44c93ec8bbde231b39, type: 3}
+  projectileFlySound: []
+  projectileDestroySound: []
+  projectile: {fileID: 1877171509497746, guid: 8c4f583a15fceb54dbda40942fc00eb6, type: 2}
+  projectileEffect: {fileID: 0}
+  ExplosionObject: {fileID: 0}
+  projectileSpeed: 25
+  projectileCount: 1
+  angleBetweenProjectiles: 10
+  delayBetweenProjectiles: 0
+  interaction: 4
+  pierceCount: 2
+  dmgType: 2
+  damage: 5
+  projectileDuration: 1

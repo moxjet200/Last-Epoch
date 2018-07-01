@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f9facd6988cc9419007e03b8f62a96, type: 3}
+  m_Name: Resurrect
+  m_EditorClassIdentifier: 
+  abilityName: Resurrect
+  abilitySprite: {fileID: 21300000, guid: c08ed8a89973c974fa5b00fb7b882fea, type: 3}
+  playerAbilityID: 
+  useDelay: 0.8
+  useDuration: 1.3
+  manaCost: 20
+  abilityPrefab: {fileID: 1556913956770244, guid: db6c1fe089263d1469725792f5b2cb66,
+    type: 2}
+  animation: 0
+  sharedHitDetector: 1
+  speedScaler: 3
+  speedMultiplier: 1
+  useTags: 
+  useSound: 
+  beginUseSound: 
+  delayedCasts: 0
+  delayedCastDuration: 0.25
+  maxCharges: 1
+  chargesGainedPerSecond: 0.14
+  requiresAccessibleTargetLocation: 0
+  useCastPoints: 1
+  moveIntoRangeBeforeUse: 0
+  stopRange: 1
+  stopRangeAffectedByWeaponRange: 0
+  movementDuringUse: 0
+  baseMovementDuration: 0
+  movementDurationPerUnitDistance: 0
+  immuneDuringMovement: 0
+  targetsAllies: 1
+  nonStackingAttachable: 0
+  requiredLifeState: 1
+  limitRangeForPlayers: 0
+  rangeLimitForPlayers: 0
+  requireWeaponType: 0
+  permittedWeaponTypes: 
+  skillLore: 
+  description: "Ressurect a fallen companion\t"

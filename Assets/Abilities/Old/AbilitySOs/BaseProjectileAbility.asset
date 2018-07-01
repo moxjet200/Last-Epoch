@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a480f47a6d1a093458528b170d7fd9c2, type: 3}
+  m_Name: BaseProjectileAbility
+  m_EditorClassIdentifier: 
+  abilityName: Base Projectile Ability
+  abilitySprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  actionTime: 0.5
+  manaCost: 1
+  critChance: 0
+  critMultiplier: 0
+  actionSound:
+  - {fileID: 8300000, guid: b6559cdc22ccc8448ba798fd4a96951f, type: 3}
+  - {fileID: 8300000, guid: 5e13dffab9d2648358430401c1a0b5bf, type: 3}
+  - {fileID: 8300000, guid: e8c87c7bce3de4f78ae2143803a6c350, type: 3}
+  projectile: {fileID: 1186751457722342, guid: 7a0932399b595ae4d9901a764c2f168d, type: 2}
+  projectileSpeed: 10
+  projectileCount: 1
+  angleBetweenProjectiles: 10
+  interaction: 0
+  dmgType: 0
+  damage: 10
+  projectileDuration: 1

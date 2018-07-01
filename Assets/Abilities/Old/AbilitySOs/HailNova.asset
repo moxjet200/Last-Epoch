@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a480f47a6d1a093458528b170d7fd9c2, type: 3}
+  m_Name: HailNova
+  m_EditorClassIdentifier: 
+  abilityName: Hail Nova
+  abilitySprite: {fileID: 21300000, guid: 6a996162c2fd05245a0034540697bca0, type: 3}
+  actionTime: 0.01
+  manaCost: 30
+  critChance: 0.173
+  critMultiplier: 2
+  damage: 10
+  damageType: 0
+  actionSound:
+  - {fileID: 8300000, guid: 45cabc65fafce5d47bdeecd6e807ff9a, type: 3}
+  - {fileID: 8300000, guid: b50272d0b0d74944aab87327bc5368ed, type: 3}
+  - {fileID: 8300000, guid: 1e72f5cec2df0b04089f6787fe581c6a, type: 3}
+  - {fileID: 8300000, guid: 678207c15b29cf44c93ec8bbde231b39, type: 3}
+  - {fileID: 8300000, guid: ae7213e231a0b084aa75f4436c09981b, type: 3}
+  - {fileID: 8300000, guid: 7b7cbb712b5c9724980aba383c634248, type: 3}
+  projectileFlySound:
+  - {fileID: 8300000, guid: 8ef4d1bd88f8043d292f7c485998cc78, type: 3}
+  projectileDestroySound:
+  - {fileID: 8300000, guid: 81f0d84a40f037940bd746a2abe286c5, type: 3}
+  projectile: {fileID: 1858490654874126, guid: 6f507ca1dfbe6e045a40a3abe7cd2bbc, type: 2}
+  projectileEffect: {fileID: 1009555450837048, guid: d965dc7028b95be4ab27e4640036cc5e,
+    type: 2}
+  ExplosionObject: {fileID: 156342, guid: 1483408bea0b250409d52a0d301baaf2, type: 2}
+  projectileSpeed: 20
+  projectileCount: 20
+  angleBetweenProjectiles: 150
+  delayBetweenProjectiles: 0.2
+  interaction: 5
+  pierceCount: 0
+  projectileDuration: 0.3

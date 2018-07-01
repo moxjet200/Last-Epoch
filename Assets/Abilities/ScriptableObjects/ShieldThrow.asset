@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f9facd6988cc9419007e03b8f62a96, type: 3}
+  m_Name: ShieldThrow
+  m_EditorClassIdentifier: 
+  abilityName: Shield Throw
+  abilitySprite: {fileID: 21300000, guid: 69c4f81d9531fad4bb7e8591cf36d4c4, type: 3}
+  playerAbilityID: st31io
+  useDelay: 0.5
+  useDuration: 0.75
+  manaCost: 30
+  abilityPrefab: {fileID: 1205434269101760, guid: bd52d3731beebbb4ebdd9ba27d36a96e,
+    type: 2}
+  animation: 8
+  sharedHitDetector: 0
+  speedScaler: 2
+  speedMultiplier: 0.9
+  useTags: 020000001a000000
+  fakeUseTags: 
+  useSound: event:/Abilities/Beastmaster/Swipe
+  beginUseSound: 
+  delayedCasts: 0
+  delayedCastDuration: 0.2
+  maxCharges: 0
+  chargesGainedPerSecond: 0
+  requiresAccessibleTargetLocation: 0
+  useCastPoints: 1
+  instantCastForPlayer: 0
+  moveIntoRangeBeforeUse: 0
+  stopRange: 1
+  stopRangeAffectedByWeaponRange: 0
+  movementDuringUse: 0
+  baseMovementDuration: 0
+  movementDurationPerUnitDistance: 0
+  immuneDuringMovement: 0
+  landingDistanceFromTarget: 0
+  canMoveBack: 0
+  animationDurationMatchesMovement: 0
+  baseMovementAnimationLength: 1
+  stopAtEdgeOfNavmesh: 0
+  stayAtGroundHeight: 0
+  stopWhenOutOfMana: 0
+  stopMovementOnKeyRelease: 0
+  changeDestinationWhileMoving: 0
+  targetsSelfOnly: 0
+  targetsAllies: 0
+  nonStackingAttachable: 0
+  requiredLifeState: 0
+  doNotUpdateTargetLocation: 0
+  limitRangeForPlayers: 0
+  rangeLimitForPlayers: 0
+  requireWeaponType: 0
+  permittedWeaponTypes: 
+  requiresSheild: 0
+  skillLore: 
+  description: Throws a shield in a line, whenever it hits an enemy fragments of the
+    shield shatter off and pierce nearby enemies.
